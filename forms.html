@@ -1,0 +1,77 @@
+<html>
+	<head>
+		<title>forms</title>
+	</head>
+
+	<body>
+	
+		<h1>Dance Club Registration Form</h1>
+	
+		<form action="confirmation.html" method="post">
+		<fieldset>
+		<legend>Personal Information</legend>
+			<label for="fullname">Full Name:</label><br>
+			<input type="text" id="fullname" name="fullname" placeholder="Enter your full name"><br></input>
+			<br>
+			<label for="email">Email Address:</label><br>
+			<input type="text" id="email" name="email" placeholder="example@gmail.com"><br></input>
+			<br>
+			<label for="email">Contact Number:</label><br>
+			<input type="text" id="email" name="email" placeholder="XXX-XXX-XXXX"><br></input>
+			<br>
+			<label for="gender">Gender:</label><br>
+			<label for="male">Male</label>
+			<input type="radio" id="male" name="gender" value="male"><br></input>
+			<label for="female">Female</label>
+			<input type="radio" id="female" name="gender" value="female"><br></input>
+			<label for="other">Other</label>
+			<input type="radio" id="other" name="gender" value="other"><br></input>
+			<br>
+			<label for="glvl">Grade Level:</label><br>
+			<select id="glvl" name="glvl"><br>
+				<option value="select">Select your grade level</option>
+				<option value="grade 7">Grade 7</option>
+				<option value="grade 8">Grade 8</option>
+				<option value="grade 9">Grade 9</option>
+				<option value="grade 10">Grade 10</option>
+				<option value="grade 11">Grade 11</option>
+				<option value="grade 12">Grade 12</option>
+			</select>
+			</fieldset>
+			<br>
+			<fieldset>
+			<legend>Membership Information</legend>
+			<br>
+			<br>
+			<label for="spec">Specialization:</label><br>
+			<input type="checkbox" id="ballet" name="ballet" value="ballet">
+			<label for="ballet"> Ballet</label><br>
+			<input type="checkbox" id="hiphop" name="hiphop" value="hiphop">
+			<label for="hiphop"> Hip-Hop</label><br>
+			<input type="checkbox" id="contemporary" name="contemporary" value="contemporary">
+			<label for="contemporary"> Contemporary</label><br>
+			<input type="checkbox" id="ballroom" name="ballroom" value="ballroom">
+			<label for="ballroom">Ballroom</label><br>
+			<input type="checkbox" id="other" name="other" value="other">
+			<label for="other">Other</label><br>
+			<br>
+			<label for="glvl">Type of Member:</label><br>
+			<select id="glvl" name="glvl"><br>
+				<option value="newm">New Member</option>
+				<option value="camem">Casual Member</option>
+				<option value="senmem">Senior Member</option>
+			</select>
+			<br>
+			<br>
+			
+			<label for="comments">Comments/Suggestions/Feedback</label><br>
+			<textarea id="comments" name="comments" rows="4" cols="50" placeholder="Write your messages here"> 
+			</textarea>
+			</fieldset>
+			<br>
+			 <button type="submit">Submit</button>
+			 <button type="reset" value="clear form">Reset</button>
+	</form>
+		
+	</body>
+</html>
