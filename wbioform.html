@@ -1,0 +1,55 @@
+<html>
+	<head>
+		<title>forms</title>
+	</head>
+
+	<body style="background-color:beige">
+	
+		<h1>DanceSport Team Registration Form</h1>
+	
+		<form action="wconfirmation.html" method="post">
+		<fieldset>
+		<legend>Personal Information</legend>
+			<label for="fullname">Full Name:</label><br>
+			<input type="text" id="fullname" name="fullname" placeholder="Enter your full name"><br></input>
+			<label for="nn">Nickname:</label><br>
+			<input type="text" id="nn" name=nn" placeholder="Enter your nickname"><br></input>
+			<br>
+			<label for="gender">Gender:</label><br>
+			<label for="male">Male</label>
+			<input type="radio" id="male" name="gender" value="male"><br></input>
+			<label for="female">Female</label>
+			<input type="radio" id="female" name="gender" value="female"><br></input>
+			<label for="other">Other</label>
+			<input type="radio" id="other" name="gender" value="other"><br></input>
+			<br>
+			<label for="age">Age</label><br>
+			<select id="age name="age"><br>
+				<option value="select">Select your age</option>
+				<option value="11">11 - 12</option>
+				<option value="13">13</option>
+				<option value="14">14</option>
+				<option value="15">15</option>
+				<option value="16">16</option>
+				<option value="17">17+</option>
+			</select>
+			</fieldset>
+			<br>
+			<fieldset>
+			<legend>Contact Information</legend>
+			<br>
+			<label for="email">Email Address:</label><br>
+			<input type="text" id="email" name="email" placeholder="example@gmail.com"><br></input>
+			<br>
+			<label for="email">Contact Number:</label><br>
+			<input type="text" id="email" name="email" placeholder="XXX-XXX-XXXX"><br></input>
+			<br>
+			<br>
+			<label for="comments">Address</label><br>
+			<textarea id="comments" name="comments" rows="4" cols="50" placeholder="Write your address here"> 
+			</textarea>
+			</fieldset>
+			<br>
+			 <button type="submit">Submit</button>
+			 <button type="reset" value="clear form">Reset</button>
+	</form>

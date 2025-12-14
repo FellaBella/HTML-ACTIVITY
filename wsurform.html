@@ -1,0 +1,114 @@
+<html>
+<head>
+	<title>survey form</title>
+</head>
+<body style="background-color:beige">
+<form action="wconfirmation.html" method="post">
+		<fieldset>
+		<legend>Basic Information</legend>
+			<label for="fullname">Full Name:</label><br>
+			<input type="text" id="fullname" name="fullname" placeholder="Enter your full name"><br></input>
+			<label for="gender">Gender:</label><br>
+			<label for="male">Male</label>
+			<input type="radio" id="male" name="gender" value="male"><br></input>
+			<label for="female">Female</label>
+			<input type="radio" id="female" name="gender" value="female"><br></input>
+			<label for="other">Other</label>
+			<input type="radio" id="other" name="gender" value="other"><br></input>
+			<br>
+			<label for="glvl">Grade Level:</label><br>
+			<select id="glvl" name="glvl"><br>
+				<option value="select">Select your grade level</option>
+				<option value="grade 7">Grade 7</option>
+				<option value="grade 8">Grade 8</option>
+				<option value="grade 9">Grade 9</option>
+				<option value="grade 10">Grade 10</option>
+				<option value="grade 11">Grade 11</option>
+				<option value="grade 12">Grade 12</option>
+			</select>
+			<br>
+			<br>
+			<label for="cm">Have you already joined the DanceSport Team or been a member?</label><br>
+			<select id="cm" name="cm"><br><br>
+			<option value="yes">Yes, and I still am.</option>
+			<option value="yes">Yes, I have been a member but left at a certain point</option>
+			<option value="no">No, I have not been a member of the DanceSport Team</option>
+			</select>
+		</fieldset>
+		<br>
+		<fieldset>
+			<legend>Dance Experience</legend>
+				<label for="l">How long have you been dancing?</label><br>
+				<select id="l" name="l"><br>
+				<option value="bgnr">A few months / weeks.</option>
+				<option value="intr">About a year or 2 by now.</option>
+				<option value="advd">More than 3 years already.</option>
+				</select>
+				<br>
+				<br>
+				<label for="dsc">Have you had any experience in DanceSport before?</label><br>
+				<select id="dsc" name="dsc"><br>
+				<option value="yes">Yes but only for some time.</option>
+				<option value="yes">Yes, and I've had experience in competing.</option>
+				<option value="no">No.</option>
+				</select>
+		</fieldset>
+		<br>
+		<fieldset>
+			<legend>Training Preference</legend>
+				<label for="dys">How many days per week can you train?</label><br>
+				<select id="dys" name="dys"><br>
+				<option value="sn">1 - 2</option>
+				<option value="tr">3 - 4</option>
+				<option value="fb">5+</option>
+				</select>
+				<br>
+				<br>
+				<label for="pt">Preferred Time:</label><br>
+				<select id="pt" name="pt"><br>
+				<option value="m">Morning</option>
+				<option value="a">Afternoon</option>
+				<option value="n">Night</option>
+				<option value="any">I'm available any time.</option>
+				</select>
+				<br>
+				<br>
+				<label for="ptd">Preferred Training Days:</label><br>
+				<select id="ptd" name="ptd"><br>
+				<option value="wd">Weekdays</option>
+				<option value="we">Weekends</option>
+				<option value="bt">Both</option>
+				</select>
+		</fieldset>
+		<br>
+		<fieldset>
+			<legend>Goals</legend>
+				<label for="mg">What is your main goal in joining the club?</label><br>
+				<select id="mg" name="mg"><br>
+				<option value="fn">Fitness</option>
+				<option value="cmp">Competing / Skill Improvement</option>
+				<option value="sc">Socializing / Performing</option>
+				</select>
+				<br>
+				<br>
+			<label for="wmu">What motivates you to dance?</label><br>
+			<textarea id="wmu" name="wmu" rows="4" cols="50" placeholder="Write your text here."></textarea>
+		</fieldset>
+		<br>
+				<fieldset>
+			<legend>Team Feedback</legend>
+				<label for="sat">Are you satisfied with the team?</label><br>
+				<select id="sat" name="sat"><br>
+				<option value="s">Satisfied</option>
+				<option value="n">Neutral</option>
+				<option value="u">Unsatisfied</option>
+				</select>
+				<br>
+				<br>
+			<label for="wmu">How do you feel about the training environment, members, and facilities?</label><br>
+			<textarea id="wmu" name="wmu" rows="4" cols="50" placeholder="Write your text here."></textarea>
+			<br>
+			<br>
+			 <button type="submit">Submit</button>
+			 <button type="reset" value="clear form">Reset</button>
+			</form>
