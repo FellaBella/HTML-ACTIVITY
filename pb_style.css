@@ -173,4 +173,48 @@ float: center;
 
 p.foot {
 	color:#1434A4;
+
+}
+
+
+.pbfooter {
+	background-color:	#ADD8E6;
+}
+
+p.foot {
+	color:#1434A4;
+}
+
+	a:link {
+  color: #1e90ff;           
+  text-decoration: none;
+}
+
+a:visited {
+  color: #4169e1;           
+}
+
+a:hover {
+  color: #0b5ed7;           
+  text-decoration: underline;
+}
+
+a:active {
+  color: #003f88;           
+}
+
+.img-wrapper {
+  display: inline-block;
+  overflow: hidden;
+}
+
+.hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover:hover {
+  transform: scale(1.05);
+  box-shadow:
+    0 0 15px rgba(0, 150, 255, 0.8),
+    0 0 30px rgba(0, 150, 255, 0.6);
 }
