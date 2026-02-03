@@ -85,7 +85,7 @@ iframe.videobox {
 	justify-content:center;}
 	
 .postbox {
-	height: 585px; 
+	height: 570px; 
 	width: 1300px;
 	background-color:white;
 	box-shadow: 7px 5px 5px black; 
@@ -218,3 +218,4 @@ a:active {
     0 0 15px rgba(0, 150, 255, 0.8),
     0 0 30px rgba(0, 150, 255, 0.6);
 }
+
